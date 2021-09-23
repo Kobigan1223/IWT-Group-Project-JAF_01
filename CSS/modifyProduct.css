@@ -1,0 +1,317 @@
+@charset "utf-8";
+
+:root {
+	--color: #78b3d3;
+	--t-color: #575757;
+	--d-c: #2d3436;
+}
+
+/*prd*/
+.wrapper {
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	background: #fff;
+	--position: absolute;
+	--top: 60%;
+	--left: 50%;
+	--transform: translate(-50%, -35%);
+	--width: 1800px;
+	width: 90%;
+	height: auto;
+	box-shadow: 0 10px 20px 0 rgba(69, 90, 100, 0.08);
+	padding: 50px;
+}
+
+
+.wrapper .title {
+	margin: 10px;
+	color: var(--t-color);
+	border-bottom: 1px solid #e9e9e9;
+	text-transform: uppercase;
+}
+
+/*  ====================================
+		Product image start
+	==================================== */
+.set {
+	display: inline-block;
+	width: 100%;
+	padding: 20px;
+	box-shadow: 0 10px 20px 0 rgba(69, 90, 100, 0.08);
+	transition: all .4s ease;
+}
+
+.prpiccontainer {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	transition: all .4s ease;
+}
+
+.prpicdata {
+	margin: 10px 20px;
+	--padding: 50px;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0 10px 20px 0 rgba(69, 90, 100, 0.08);
+	min-width: 500px;
+	width: 45%;
+}
+
+.prpic {
+	border-right: 1px solid #e9e9e9;
+	width: 200px;
+	padding: 10px;
+	padding-bottom: 20px;
+
+}
+
+.container .prpic img {
+	max-width: 178px;
+	max-height: 178px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.container .prpic .locked {
+
+	filter: grayscale(95%);
+	border: 4px solid #ff0000;
+
+}
+
+
+.prpicdata .dis,
+.container .fbutton:disabled {
+	display: none;
+}
+
+.prpicdata .uplimg {
+	display: none;
+}
+
+.prpicdata .title {
+	margin: 5px 2px;
+}
+
+.prpicdata #pinstruction {
+	display: flex;
+	padding: 0px 10px;
+	--display: none;
+	color: var(--t-color);
+	font-size: 13px;
+	font-family: "open sans", sans-serif;
+}
+
+.prpicdata #pinstruction::before,
+.prpicdata #pinstruction::after {
+	content: '*';
+	color: red;
+	position: relative;
+	top: 2.5px;
+	font-size: 1.2em;
+}
+
+.container .fbutton:hover {
+	background-color: #3d65a5;
+	color: aliceblue;
+	box-shadow: 0px 10px 20px 5px rgba(69, 90, 100, 0.1);
+}
+
+
+.container .fbutton {
+	width: 150px;
+	height: 25px;
+	background-color: var(--color);
+	color: #1f1e1e;
+	border-radius: 5px;
+	border-style: hidden;
+	text-align-last: center;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	box-shadow: 0px 10px 20px 5px rgba(69, 90, 100, 0.08);
+	
+}
+
+.prpicdata .btn {
+	display: flex;
+	margin-right: 10px;
+	padding: 5px 1px;
+	margin-top: auto;
+	margin-bottom: auto;
+	
+}
+
+.prpicdata .fbutton {
+	margin: 0px 3px;
+	width: auto;
+	padding: 2px 3px;
+}
+
+.prpicdata label {
+	text-align: center;
+	padding: 4px;
+}
+
+.fbutton:hover,
+.prpicdata .upimg {
+	cursor: pointer;
+}
+
+.prpicdata .btn .uplimg {
+	width: 400px;
+}
+
+/*  ====================================
+		Product image end
+	==================================== */
+
+select:focus,
+input:focus,
+textarea,
+button:focus {
+	outline: none;
+}
+
+.container .prod_info .data {
+	display: flex;
+	margin: 10px 0px;
+}
+textarea{
+	resize: none;
+}
+.container .prod_info .data select,
+.container .prod_info .data input,
+.container .prod_info .data textarea {
+	position: absolute;
+	margin-left: 200px;
+}
+
+.container .prod_info .data textarea.descfield{
+	position:sticky;
+	margin-left: 98px;
+	
+}
+.container .prod_info .data textarea.colorfield{
+	position:relative;
+	right:30px;
+	margin-left: 0px;
+	text-transform: uppercase;
+	
+}
+
+.container .prod_info .data p {
+	margin-left: 10px;
+}
+
+.datain {
+	display: block;
+
+}
+
+.container .prod_info .datain input {
+	position: relative;
+	margin-left: 180px;
+}
+
+.prod_info #pinstruction {
+	position: relative;
+	top: 30px;
+	right: 160px;
+	padding: 0px 10px;
+	--display: none;
+	color: var(--t-color);
+	font-size: 13px;
+	font-family: "open sans", sans-serif;
+}
+.prod_info #pinstruction.colins{
+	top: 30px;
+	right: 70px;
+	padding: 0px 10px;
+	--display: none;
+	color: var(--t-color);
+	font-size: 13px;
+	font-family: "open sans", sans-serif;
+}
+
+.prod_info #pinstruction::before,
+.prod_info #pinstruction::after {
+	content: '*';
+	color: red;
+	position: relative;
+	top: 2.5px;
+	font-size: 1.2em;
+}
+
+.container .prod_info .fbuttoncont {
+	float: right;
+	margin-right: 10px;
+	margin-top: 65px;
+}
+
+@media(max-width:1000px) {
+
+	.container .prod_info .fbuttoncont {
+		margin-right: 1px;
+	}
+}
+
+@media(max-width:1338px) {
+	.prpiccontainer {
+		display: block;
+	}
+
+	.prpicdata {
+		width: 95%;		
+	}
+
+
+}
+
+@media(max-width:1024px) {
+	.wrapper {
+		width: 95%;
+	}
+
+
+}
+
+@media(max-width:667px) {
+	.wrapper {
+		width: 95%;
+	}
+
+	.prpicdata {
+		display: block;
+		padding: 2px 5px;
+		min-width: 200px;
+		min-height: 400px;
+	}
+
+	.prpic {
+		border-right: none;
+		border-bottom: 1px solid #e9e9e9;
+
+	}
+
+	.prpicdata .fbutton {
+		height: auto;
+	}
+
+	.prpicdata {
+		width: 60%;
+	}
+}
+
+
+
+
+@media(min-width:3000px) {
+	body {
+		margin-left: auto;
+		margin-right: auto;
+		width: 2500px;
+	}

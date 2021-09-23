@@ -1,0 +1,49 @@
+
+h3 {
+    color:white;
+	font-family:times new roman;
+    font-size:24px;
+	margin:2px 2px;
+    padding: 8px;
+
+}
+
+
+
+hr.hrline1{
+	border:none;
+	border-top:10px solid black;
+	margin-left:0px;
+	margin-right:px;
+	margin-top:4px;
+	margin-bottom:4px;
+}
+hr.hrline2{
+	border:none;
+	border-top:10px solid #8b0000;
+	margin-left:0px;
+	margin-right:px;
+	margin-top:4px;
+	margin-bottom:4px;
+}
+
+
+
+.navbar{
+	overflow: hidden;
+	background: #000428;  
+    background: -webkit-linear-gradient(to left, #004e92, #000428);  
+    background: linear-gradient(to left, #004e92, #000428);
+	font-family:Lato;
+	font-weight:bold;
+	text-align:center;
+}
+.navbar a{
+	Float:left;
+	font-size:15px;
+	color:white;
+	text-align:center;
+	padding:14px 45px ;
+	text-decoration:none;
+	
+}

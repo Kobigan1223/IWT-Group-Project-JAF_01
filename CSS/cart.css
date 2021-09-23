@@ -1,0 +1,120 @@
+.cart-page
+{
+	margin: 50px auto;
+}
+
+table
+{
+	width: 100%
+	border-collapse:collapse;
+}
+	
+.cart
+{
+	display: flex;
+	flex-wrap: wrap;
+	font-size:20px;
+}
+
+.abc1{
+	text-align: center;
+	padding: 5px
+	color:#fff;
+	height:30px;
+	width:50px;
+	background:#004e92;
+	font-weight:normal;
+	font-size:25px;
+	font-family: Helvetica;
+}
+.abc2{
+	text-align: center;
+	padding: 5px
+	color:#fff;
+	height:30px;
+	width:50px;
+	background:#004e92;
+	font-weight:normal;
+	font-size:25px;
+	font-family: Helvetica;
+}
+.abc3{
+	text-align: center;
+	padding: 5px
+	color:#fff;
+	height:30px;
+	width:50px;
+	background:#004e92;
+	font-weight:normal;
+	font-size:25px;
+	font-family: Helvetica;
+}
+
+td
+{
+	padding:30px 30px;
+	font-size: 30px;
+	
+}
+.cart .button,
+.pay .button{
+	
+	background-color:#fff;
+	border:2px;
+	border-color:white;
+	color:black;
+	padding:8px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:12px;
+	margin:5px 5px;
+	cursor:pointer;
+	border-radius: 5px 5px 5px 5px;
+    
+}
+.cart .button:hover,
+.pay .button:hover{
+  background-color: #33ccff;
+  color: white;
+}
+
+td input
+{
+	color:purple;
+	width:100px;
+	height:50px;
+	padding:5px;
+	font-size: 20px;
+}
+td a
+{
+	color:#ff523b;
+	font-size:25px;
+	font-style: Italic;
+}
+td img
+{
+	width: 250px;
+	height: 300px;
+	margin-left: 20px;
+}
+
+.read{
+   margin-left: 50px;
+}
+.total
+{
+	padding:5px;
+	display: flex;
+	justify-content: flex-end;
+	transform: translate(-10%, -10%);
+}
+.total table
+{
+    
+	border-top: 3px solid #ff523b;
+	width: 100%
+	max-width: 350px;
+}
+	
