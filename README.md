@@ -65,7 +65,7 @@ c. Import the SQL file provided with this project
 ## Follow Us on Linkedin
 
 1. [Kobigan](https://www.linkedin.com/in/kobigan-krishnananthan-5092491a6/ "Kobigan on LinkedIn")
-2. [Jeyaseelan](https://www.linkedin.com/ "Jeyaseelan on LinkedIn") 
+2. [Kajansika](https://www.linkedin.com/ "Kajansika on LinkedIn") 
 7. [Viththgan](https://www.linkedin.com/ "Viththgan Thapa on LinkedIn")
 4. [Kumaran](https://www.linkedin.com/ "Kumaran Thapa on LinkedIn")
 
