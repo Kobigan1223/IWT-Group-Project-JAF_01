@@ -827,18 +827,13 @@ INSERT INTO `user_credentials` (`userId`, `email`, `password`) VALUES
 ('CMR007', 'fafagah@gmail.com', '12345'),
 ('CMR002', 'henrykpape@gmail.com', 'HenryK@charlie'),
 ('CMR003', 'jackkirby@gmail.com', 'JackK@charlie'),
-('SOW003', 'jk@gmail.com', 'jk@charlie'),
 ('CMR012', 'jkk@gmail.com', 'jkk@12'),
 ('CMR005', 'joerusso@gmail.com', 'JoeR@charlie'),
-('SOW004', 'john@gmail.com', 'john@charlie'),
 ('CMR010', 'kobigan98@gmail.com', 'kobi@charlie'),
 ('CMR008', 'kobigan@gmail.com', '123456'),
 ('CMR009', 'kobigank@gmail.com', '123456'),
 ('CMR006', 'kumaransathiyavarathan@gmail.com', 'kumaran14'),
-('SOW001', 'Michael@gmail.com', 'Michael@charlie'),
-('SOW002', 'Robert@gmail.com', 'Robert@charlie'),
 ('CMR011', 'sathiyavarathan@gmail.com', 'abcdef'),
-('SOW005', 'will@gmail.com', 'will@charlie'),
 ('CMR001', 'william@gmail.com', 'William@charlie');
 
 -- --------------------------------------------------------
@@ -871,12 +866,7 @@ INSERT INTO `user_details` (`userId`, `userName`, `profImgLoc`, `mob_no`, `addre
 ('CMR009', 'kobigan15', '../images/userprofpics/no_avatar.jpg', NULL, NULL),
 ('CMR010', 'kobigan.k', '../images/userprofpics/no_avatar.jpg', NULL, NULL),
 ('CMR011', 'sathi', '../images/userprofpics/no_avatar.jpg', NULL, NULL),
-('CMR012', 'jkk', '../images/userprofpics/no_avatar.jpg', NULL, NULL),
-('SOW001', 'Michael B Jordan', '../images/userprofpics/SOW001.jpg', '0772563654', '177A Bleecker Street, Greenwich Village, Manhattan'),
-('SOW002', 'Robert Downey, Jr.', '../images/userprofpics/SOW002.jpg', '0772563985', 'Malibu Point 10880, 90265,Malibu, California.'),
-('SOW003', 'JK', '../images/userprofpics/SOW003.jpg', '0122545885', 'abc street.'),
-('SOW004', 'john', '../images/userprofpics/SOW004.jpg', '0752255663', ''),
-('SOW005', 'will smith', '../images/userprofpics/no_avatar.jpg', '0245553665', '');
+('CMR012', 'jkk', '../images/userprofpics/no_avatar.jpg', NULL, NULL);
 
 -- --------------------------------------------------------
 
